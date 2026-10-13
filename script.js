@@ -1,4 +1,3 @@
-```javascript
 const menuToggle = document.getElementById("menu-toggle");
 const mainNav = document.getElementById("main-nav");
 
@@ -11,6 +10,7 @@ if (menuToggle && mainNav) {
       "aria-label",
       isOpen ? "Close navigation menu" : "Open navigation menu"
     );
+
     menuToggle.textContent = isOpen ? "✕" : "☰";
   });
 
@@ -23,4 +23,3 @@ if (menuToggle && mainNav) {
     });
   });
 }
-```
