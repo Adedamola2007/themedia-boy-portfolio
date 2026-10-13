@@ -481,5 +481,12 @@ footer p {
     text-align: center;
   }
 }
-
+/* Fix mobile menu visibility */
+@media (max-width: 768px) {
+  .navbar nav.active {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
 
