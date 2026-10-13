@@ -466,9 +466,18 @@ footer p {
     z-index: 1000;
   }
 
-  .navbar nav.active {
-    display: flex;
-  }
+ .navbar nav.active {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  background: #151515;
+  z-index: 9999;
+}
 
   .navbar nav a {
     display: block;
